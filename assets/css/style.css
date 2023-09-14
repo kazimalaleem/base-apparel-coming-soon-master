@@ -84,6 +84,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-image: linear-gradient(hsl(0deg 84% 88% / 84%), hsl(0deg 77% 76% / 74%));
+    box-shadow: 1px 1px 17px 0px hsl(0, 80%, 86%);
+}
+
 .base-banner img {
     width: auto;
     height: 675px;
@@ -117,11 +122,13 @@ button {
         padding: 14px 150px 11px 25px;
     }
 }
+
 @media (max-width:1194px) {
     .base-coming-title {
         font-size: 18px;
         margin: 0px 12px 0px 0px;
     }
+
     .base-coming-title {
         margin: 0px 12px 0px 0px;
     }
@@ -138,11 +145,13 @@ button {
         background-repeat: no-repeat;
     }
 }
+
 @media (max-width:938px) {
     input[type="email"] {
         padding: 14px 10px 11px 25px;
     }
 }
+
 @media (max-width:790px) {
     .wapper {
         display: inline;
@@ -150,11 +159,13 @@ button {
         background-repeat: no-repeat;
     }
 }
+
 @media (max-width:504px) {
     .base-coming-title {
         font-size: 18px;
         margin: 0px 12px 0px 0px;
     }
+
     .base-coming-title {
         margin: 0px 12px 0px 0px;
     }
@@ -162,6 +173,7 @@ button {
     .base-apparel {
         margin: 10px 15px 20px 10px;
     }
+
     .attribution {
         display: flex;
         justify-content: center;
@@ -170,11 +182,13 @@ button {
         padding: 0px;
     }
 }
+
 @media (max-width:616px) {
     .base-coming-title {
         font-size: 18px;
         margin: 0px 12px 0px 0px;
     }
+
     .base-coming-title {
         font-size: 14px;
         margin: 0px 12px 0px 0px;
@@ -184,6 +198,7 @@ button {
     .base-apparel {
         margin: 10px 15px 20px 10px;
     }
+
     .attribution {
         display: flex;
         justify-content: center;
@@ -199,6 +214,7 @@ button {
         margin-top: 39px;
         margin-bottom: 30px;
     }
+
     input[type="email"] {
         padding: 14px 50px 11px 25px;
     }
@@ -207,6 +223,7 @@ button {
         font-size: 18px;
         margin: 0px 12px 0px 0px;
     }
+
     .base-coming-title {
         font-size: 14px;
         margin: 0px 12px 0px 0px;
@@ -221,6 +238,7 @@ button {
         width: 300px;
         height: auto;
     }
+
     .base-page {
         font-size: 40px;
     }

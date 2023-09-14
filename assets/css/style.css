@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Fraunces&family=Hanken+Grotesk&family=Inter:wght@400;600;800;900&family=Josefin+Sans:ital,wght@1,300;1,400;1,600&family=Kumbh+Sans:wght@300&family=League+Spartan&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,800&family=Outfit&family=Poppins:ital,wght@0,400;1,200&family=Red+Hat+Display:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* This Desing is Base of CSS */
+
+/* Base Desing */
+
+.wapper {
+    display: flex;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.base-apparel {
+    margin: 10px 125px 20px 100px;
+}
+
+/*        Base Logo         */
+
+.base-logo {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+/*      Base Title      */
+
+.base-page {
+    font-size: 70px;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    color: hsl(0, 36%, 70%);
+}
+
+.base-coming {
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    color: hsl(0, 6%, 24%);
+}
+
+/*      Base Text      */
+
+.base-coming-title {
+    font-size: 18px;
+    color: hsl(0, 36%, 70%);
+    line-height: 40px;
+    margin: 0px 132px 0px 0px;
+}
+
+.base-text {
+    padding-top: 10px;
+}
+
+/* Input Text */
+
+.form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 14px 190px 11px 25px;
+    border-radius: 32px;
+    border: 1px solid hsla(0, 36%, 70%, 0.342);
+    font-size: 19px;
+
+}
+
+/* Input Button */
+
+button {
+    margin-left: -72px;
+    padding: 9px 35px 14px 35px;
+    background-image: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    border-radius: 23px;
+    border: none;
+    box-shadow: 1px 1px 15px 0px hsl(0, 80%, 86%);
+    cursor: pointer;
+}
+
+.base-banner img {
+    width: auto;
+    height: 675px;
+}
+
+#msg {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    color: red;
+    text-align: left;
+}
+
+/* User Name */
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+@media (max-width:1024px) {
+    input[type="email"] {
+        padding: 14px 100px 11px 25px;
+    }
+}
+
+@media (max-width:1172px) {
+    input[type="email"] {
+        padding: 14px 150px 11px 25px;
+    }
+}
+@media (max-width:1194px) {
+    .base-coming-title {
+        font-size: 18px;
+        margin: 0px 12px 0px 0px;
+    }
+    .base-coming-title {
+        margin: 0px 12px 0px 0px;
+    }
+
+    .base-apparel {
+        margin: 10px 15px 20px 10px;
+    }
+}
+
+@media (max-width:806px) {
+    .wapper {
+        display: inline;
+        background-image: url(../images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width:938px) {
+    input[type="email"] {
+        padding: 14px 10px 11px 25px;
+    }
+}
+@media (max-width:790px) {
+    .wapper {
+        display: inline;
+        background-image: url(../images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width:504px) {
+    .base-coming-title {
+        font-size: 18px;
+        margin: 0px 12px 0px 0px;
+    }
+    .base-coming-title {
+        margin: 0px 12px 0px 0px;
+    }
+
+    .base-apparel {
+        margin: 10px 15px 20px 10px;
+    }
+    .attribution {
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+}
+@media (max-width:616px) {
+    .base-coming-title {
+        font-size: 18px;
+        margin: 0px 12px 0px 0px;
+    }
+    .base-coming-title {
+        font-size: 14px;
+        margin: 0px 12px 0px 0px;
+        line-height: 30px;
+    }
+
+    .base-apparel {
+        margin: 10px 15px 20px 10px;
+    }
+    .attribution {
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+}
+
+@media (max-width:492px) {
+
+    .base-logo {
+        margin-top: 39px;
+        margin-bottom: 30px;
+    }
+    input[type="email"] {
+        padding: 14px 50px 11px 25px;
+    }
+
+    .base-coming-title {
+        font-size: 18px;
+        margin: 0px 12px 0px 0px;
+    }
+    .base-coming-title {
+        font-size: 14px;
+        margin: 0px 12px 0px 0px;
+        line-height: 30px;
+    }
+
+    .base-apparel {
+        margin: 10px 15px 20px 10px;
+    }
+
+    .base-banner img {
+        width: 300px;
+        height: auto;
+    }
+    .base-page {
+        font-size: 40px;
+    }
+
+    .base-coming {
+        font-size: 35px;
+    }
+
+    .attribution {
+        display: flex;
+        justify-content: center;
+        font-size: 11px;
+        margin-top: 20px;
+        padding: 0px;
+    }
+}

@@ -86,7 +86,7 @@ button {
 
 button:hover {
     background-image: linear-gradient(hsl(0deg 84% 88% / 84%), hsl(0deg 77% 76% / 74%));
-    box-shadow: 1px 1px 17px 0px hsl(0, 80%, 86%);
+    box-shadow: 1px 1px 15px 4px hsl(0, 80%, 86%);
 }
 
 .base-banner img {
